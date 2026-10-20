@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://v5vlwubnug1i"]
 
-[ext_resource type="Texture2D" uid="uid://b6msh1p47b7yp" path="res://Art/Basic_Grass_Biom_things.png" id="1_moefb"]
+[ext_resource type="Texture2D" uid="uid://b6msh1p47b7yp" path="res://Art/Plants.png" id="1_moefb"]
 [ext_resource type="Script" uid="uid://bwqy6munnsnw7" path="res://Scripts/GrabApple.gd" id="2_lbidb"]
+[ext_resource type="Texture2D" uid="uid://bksysejnloxff" path="res://Art/Sparkle.png" id="3_siqk8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbidb"]
 texture = ExtResource("1_moefb")
@@ -57,6 +58,56 @@ sources/0 = SubResource("TileSetAtlasSource_lbidb")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_86fh0"]
 size = Vector2(13, 14)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsr0t"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxglh"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snntp"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtj01"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y330w"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqa77"]
+atlas = ExtResource("3_siqk8")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86fh0"]
+animations = [{
+"frames": [{
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_rsr0t")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_sxglh")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_snntp")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_wtj01")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_y330w")
+}, {
+"duration": 0.6,
+"texture": SubResource("AtlasTexture_rqa77")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="VictoryApple" type="Node2D" unique_id=757003948]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1281159306]
@@ -71,3 +122,13 @@ script = ExtResource("2_lbidb")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=9386939]
 position = Vector2(7.5, -8)
 shape = SubResource("RectangleShape2D_86fh0")
+
+[node name="SparkleSprite" type="AnimatedSprite2D" parent="Area2D" unique_id=927140833]
+visible = false
+z_index = 10
+position = Vector2(7.4999995, -7.2)
+scale = Vector2(0.59999996, 0.59999996)
+sprite_frames = SubResource("SpriteFrames_86fh0")
+autoplay = "default"
+frame = 5
+frame_progress = 1.0

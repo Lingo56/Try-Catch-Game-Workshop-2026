@@ -1,9 +1,9 @@
-[gd_scene format=4 uid="uid://bo7s3qi5lq0um"]
+[gd_scene format=4 uid="uid://svlh04w0tmd4"]
 
-[ext_resource type="Texture2D" uid="uid://ch2lqvjn2xue1" path="res://Art/Grass.png" id="1_kclxg"]
+[ext_resource type="Texture2D" uid="uid://ch2lqvjn2xue1" path="res://Art/Grass.png" id="1_fwm6b"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig7tw"]
-texture = ExtResource("1_kclxg")
+texture = ExtResource("1_fwm6b")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
