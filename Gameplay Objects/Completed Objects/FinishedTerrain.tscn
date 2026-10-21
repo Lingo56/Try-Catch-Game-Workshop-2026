@@ -97,7 +97,7 @@ texture = ExtResource("1_kclxg")
 [sub_resource type="TileSet" id="TileSet_86fh0"]
 sources/0 = SubResource("TileSetAtlasSource_ig7tw")
 
-[node name="Terrain" type="TileMapLayer" unique_id=494321322]
+[node name="FinishedTerrain" type="TileMapLayer" unique_id=494321322]
 z_index = -3
 texture_filter = 1
 scale = Vector2(5, 5)

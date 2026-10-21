@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cjp8f46x4xc65"]
 
-[ext_resource type="Script" uid="uid://ci6u8y725akj0" path="res://Scripts/CharacterMovement.gd" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://dfnua2ikqelx7" path="res://Scripts/Completed Scripts/FinishedCharacterMovement.gd" id="1_5jnmx"]
 [ext_resource type="Texture2D" uid="uid://rtfmnqxkk8ca" path="res://Art/Character.png" id="2_i3pqv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y1ktj"]
@@ -121,11 +121,10 @@ animations = [{
 radius = 5.3999977
 height = 15.800003
 
-[node name="Player" type="CharacterBody2D" unique_id=614051829 groups=["player"]]
+[node name="FinishedPlayer" type="CharacterBody2D" unique_id=614051829 groups=["player"]]
 z_index = 1
 scale = Vector2(5, 5)
-script = ExtResource("1_onrkg")
-speed = 500.0
+script = ExtResource("1_5jnmx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1335615124]
 texture_filter = 1
