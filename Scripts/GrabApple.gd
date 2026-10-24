@@ -29,7 +29,7 @@ func _on_body_entered(body: Node2D) -> void:
 	tween.tween_interval(1.0)                                          # hold
 	tween.tween_property(parent_sprite, "self_modulate:a", 0.0, 1.0)  # fade out
 	tween.parallel().tween_property(sprite, "modulate:a", 0.0, 1.0)   # sparkle fades out
-	tween.parallel().tween_property(tilemap_layer, "modulate:a", 0.0, 1.0)  # tilemap fades out
+	tween.parallel().tween_property(tilemap_layer, "modulate:a", 0.0, 1.0)  # apple fades out
 	await tween.finished
 
 	await get_tree().create_timer(5.0, false).timeout

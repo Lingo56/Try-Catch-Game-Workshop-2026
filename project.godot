@@ -19,6 +19,10 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
+[editor]
+
+movie_writer/movie_file="/Users/lingo/Library/CloudStorage/OneDrive-Personal/Desktop/movie.avi"
+
 [global_group]
 
 player=""

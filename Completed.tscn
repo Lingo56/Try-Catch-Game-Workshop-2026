@@ -13,6 +13,11 @@
 [ext_resource type="PackedScene" uid="uid://baifpw8ro0xjl" path="res://Props/Furniture/Chair Right.tscn" id="12_twipt"]
 [ext_resource type="PackedScene" uid="uid://cboqq7sgr2m02" path="res://Props/Furniture/Rug.tscn" id="13_06bgi"]
 [ext_resource type="PackedScene" uid="uid://bcrq6l20urkrn" path="res://Props/Furniture/Rug Big.tscn" id="14_soh02"]
+[ext_resource type="PackedScene" uid="uid://dlk688ag4s5xi" path="res://Props/Environment/Bush.tscn" id="14_twipt"]
+[ext_resource type="PackedScene" uid="uid://b7rqmxjsfx5ig" path="res://Props/Environment/FruitTree.tscn" id="15_06bgi"]
+[ext_resource type="PackedScene" uid="uid://ceh86tqnidqq6" path="res://Props/Environment/Log.tscn" id="16_soh02"]
+[ext_resource type="PackedScene" uid="uid://cvobofjey4sk6" path="res://Props/Environment/Rock.tscn" id="17_vy2vy"]
+[ext_resource type="PackedScene" uid="uid://cd5xb1ulgl244" path="res://Props/Environment/Sunflower.tscn" id="18_em8fa"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ig7tw"]
 texture = ExtResource("2_3fw5w")
@@ -153,3 +158,24 @@ position = Vector2(475, -336)
 
 [node name="RugBig" parent="." unique_id=311952408 instance=ExtResource("14_soh02")]
 position = Vector2(819, -444)
+
+[node name="Bush" parent="." unique_id=8985883 instance=ExtResource("14_twipt")]
+position = Vector2(-10, -433)
+
+[node name="FruitTree" parent="." unique_id=1475782350 instance=ExtResource("15_06bgi")]
+position = Vector2(-374, -285)
+
+[node name="Log" parent="." unique_id=562260869 instance=ExtResource("16_soh02")]
+position = Vector2(-226, -182)
+
+[node name="Mushroom2" parent="." unique_id=714383157 instance=ExtResource("6_o4c1p")]
+position = Vector2(108, -217)
+
+[node name="Rock" parent="." unique_id=1255092873 instance=ExtResource("17_vy2vy")]
+position = Vector2(76, -380)
+
+[node name="Sunflower" parent="." unique_id=1833640817 instance=ExtResource("18_em8fa")]
+position = Vector2(-294, -107)
+
+[node name="Tree2" parent="." unique_id=151984625 instance=ExtResource("6_jg68d")]
+position = Vector2(-393, -456)
