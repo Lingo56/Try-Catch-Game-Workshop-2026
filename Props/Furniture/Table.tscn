@@ -2,39 +2,62 @@
 
 [ext_resource type="Texture2D" uid="uid://bwuoy8ny1w1e" path="res://Art/Basic Furniture.png" id="1_gdmrw"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_msqyc"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gdmrw"]
 texture = ExtResource("1_gdmrw")
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.9853296, -2.057786, 8, -2.017352, 8, 4.955015, -7.022021, 4.9684367)
 1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-4.938959, -1.9980719, 6.1511154, -2.0872731, 6.0295253, 4.9680815, -4.9938293, 5.0067215)
 2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5.003004, -3.0179715, 7.030431, -3.031341, 6.9793463, 4.9820886, -4.9938293, 5.0067215)
 3:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
 0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.977495, 1.9396105, 6.976046, 1.9213824, 7.096233, 8, -7.0822554, 8)
 1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.977495, 1.9396105, 6.976046, 1.9213824, 7.096233, 8, -7.0822554, 8)
 2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.977495, 1.9396105, 6.976046, 1.9213824, 7.096233, 8, -7.0822554, 8)
 3:1/0 = 0
 4:1/0 = 0
 5:1/0 = 0
 0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.090408, -8, 7.045002, -8, 7.096233, 8, -7.0822554, 8)
 1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.034193, -3.932557, -3.8803852, -4.0412717, -3.9309332, 4.941424, 5.04973, 5.0442567)
 0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.980483, 1.9742645, 6.973332, 1.9824731, 7.096233, 8, -7.0822554, 8)
 1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.980483, 1.9742645, 6.973332, 1.9824731, 7.096233, 8, -7.0822554, 8)
 2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.980483, 1.9742645, 6.973332, 1.9824731, 7.096233, 8, -7.0822554, 8)
 3:3/0 = 0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:3/0 = 0
+4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:3/0 = 0
 6:3/0 = 0
 7:3/0 = 0
+7:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.034193, -3.932557, -3.8803852, -4.0412717, -3.9309332, 4.941424, 5.04973, 5.0442567)
 0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 2:4/0 = 0
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.1251373, -8, 7.024683, -8, 7.096233, 8, -7.0822554, 8)
 0:5/0 = 0
 1:5/0 = 0
 2:5/0 = 0
@@ -45,12 +68,13 @@ texture = ExtResource("1_gdmrw")
 7:5/0 = 0
 8:5/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_8nu4j"]
-sources/1 = SubResource("TileSetAtlasSource_msqyc")
+[sub_resource type="TileSet" id="TileSet_7twee"]
+physics_layer_0/collision_layer = 1
+sources/1 = SubResource("TileSetAtlasSource_gdmrw")
 
 [node name="Table" type="Node2D" unique_id=537525175]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1811052781]
+[node name="TileMapLayer2" type="TileMapLayer" parent="." unique_id=1433008767]
 scale = Vector2(5, 5)
 tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 3, 0, 0, 0)
-tile_set = SubResource("TileSet_8nu4j")
+tile_set = SubResource("TileSet_7twee")
