@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="TryCatch 2026"
-run/main_scene="uid://ccbyowwa2e0vn"
+run/main_scene="uid://bcynm3or5gypj"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
